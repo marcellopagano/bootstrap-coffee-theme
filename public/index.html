@@ -25,41 +25,43 @@
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark bg-coffee-dark1" tabindex="-1" id="offcanvasDarkNavbar"
+                <div class="offcanvas offcanvas-end text-bg-dark bg-coffee-normal2" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title text-coffee-light3" id="offcanvasDarkNavbarLabel">Coffee Pippo</h5>
+                        <h5 class="offcanvas-title text-coffee-light1 user-select-none" id="offcanvasDarkNavbarLabel">
+                            <img src="./img/coffee-logo.png" alt="coffee-logo">
+                            Coffee Pippo</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active text-coffee-light3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active link-coffee-light1" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-coffee-light3" href="#">About</a>
+                                <a class="nav-link link-coffee-light1" href="#">About</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-coffee-light3" href="#" role="button"
+                                <a class="nav-link dropdown-toggle link-coffee-light1" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark bg-coffee-dark2">
-                                    <li><a class="dropdown-item text-coffee-light3" href="#">Grinded coffee</a></li>
-                                    <li><a class="dropdown-item text-coffee-light3" href="#">Coffee pods</a></li>
+                                    <li><a class="dropdown-item text-coffee-light1" href="#">Grinded coffee</a></li>
+                                    <li><a class="dropdown-item text-coffee-light1" href="#">Coffee pods</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item text-coffee-light3" href="#">Accessories</a></li>
+                                    <li><a class="dropdown-item link-coffee-light1" href="#">Accessories</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-coffee-light3" href="#">Contacts</a>
+                                <a class="nav-link link-coffee-light1" href="#">Contacts</a>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2 text-coffee-dark2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-coffee-normal3" type="submit">Search</button>
                         </form>
                     </div>
@@ -115,7 +117,7 @@
     </div>
 
     <!-- title -->
-    <div class="h1 text-center m-5">Our Products</div>
+    <div class="h1 text-center m-5 text-coffee-dark2">Our Products</div>
     <hr class="container">
     <!-- cards -->
     <div class="container d-md-flex justify-content-evenly">
@@ -156,16 +158,16 @@
     </div>
 
     <!-- form -->
-    <div class="h1 text-center m-5">Contact us</div>
+    <div class="h1 text-center m-5 text-coffee-dark2">Contact us</div>
     <hr class="container">
     <form action="#" class="container m-auto my-5">
         <div class="col-lg-6 col-md-12 m-auto mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control text-coffee-dark2" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="col-lg-6 col-md-12 m-auto mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control text-coffee-dark2" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <div class="col-lg-6 col-md-12 m-auto mb-3">
             <button class="btn btn-coffee-normal3" type="submit">Send request</button>

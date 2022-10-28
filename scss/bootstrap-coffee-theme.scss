@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
-$font-family-base : 'Merienda', cursive;
+$font-family-base : 'Merienda',cursive;
+
+$input-focus-border-color: #403129;
+$input-focus-box-shadow: #1E191B;
+$dropdown-link-active-bg: #403129;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
