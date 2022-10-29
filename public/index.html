@@ -25,12 +25,13 @@
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark bg-coffee-normal2" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark bg-coffee-normal2" tabindex="-1"
+                    id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title text-coffee-light1 user-select-none" id="offcanvasDarkNavbarLabel">
                             <img src="./img/coffee-logo.png" alt="coffee-logo">
-                            Coffee Pippo</h5>
+                            Coffee Pippo
+                        </h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -61,7 +62,8 @@
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2 text-coffee-dark2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2 text-coffee-dark2" type="search" placeholder="Search"
+                                aria-label="Search">
                             <button class="btn btn-coffee-normal3" type="submit">Search</button>
                         </form>
                     </div>
@@ -161,19 +163,21 @@
     <div class="h1 text-center m-5 text-coffee-dark2">Contact us</div>
     <hr class="container">
     <form action="#" class="container m-auto my-5">
-        <div class="col-lg-6 col-md-12 m-auto mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control text-coffee-dark2" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="form-floating col-lg-6 col-md-12 m-auto mb-3">
+            <input type="email" class="form-control text-coffee-dark2" id="floatingInput"
+                placeholder="name@example.com">
+            <label for="floatingInput" class="form-label">Email address</label>
         </div>
-        <div class="col-lg-6 col-md-12 m-auto mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control text-coffee-dark2" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="form-floating col-lg-6 col-md-12 m-auto mb-3">
+            <textarea class="form-control text-coffee-dark2 h-50" id="floatingArea" rows="3"
+                placeholder="Comment here"></textarea>
+            <label for="floatingArea" class="form-label">Comments</label>
         </div>
         <div class="col-lg-6 col-md-12 m-auto mb-3">
             <button class="btn btn-coffee-normal3" type="submit">Send request</button>
         </div>
     </form>
-    
+
     <!-- footer -->
     <footer class="d-flex justify-content-between bg-coffee-dark1 text-coffee-light1">
         <div class="p-3"> © 2017-2018 Company, Inc. · Privacy · Terms</div>

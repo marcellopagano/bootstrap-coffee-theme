@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
-$font-family-base : 'Merienda',cursive;
+$font-family-base : 'Merienda',
+cursive;
 
 $input-focus-border-color: #403129;
 $input-focus-box-shadow: #1E191B;
@@ -21,5 +22,17 @@ $custom-colors: (
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+// fix textarea multiline floating label
+.form-floating:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: calc(100% - 20px);
+    height: 28px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap';
