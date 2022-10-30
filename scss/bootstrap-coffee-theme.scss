@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
+body {
+    overflow-x: hidden;
+}
+
 .valid-feedback,
 .invalid-feedback {
     position: absolute;
