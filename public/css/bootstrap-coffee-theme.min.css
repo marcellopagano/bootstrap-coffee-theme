@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css2?family=Merienda&display=swap";.form-floating:before{content:"";position:absolute;top:1px;left:1px;width:calc(100% - 20px);height:28px;border-radius:4px;background-color:#fff}/*!
+@import"https://fonts.googleapis.com/css2?family=Merienda&display=swap";.valid-feedback,.invalid-feedback{position:absolute}.was-validated .form-control:invalid:focus,.form-control.is-invalid:focus{box-shadow:none !important}.was-validated .form-control:valid:focus,.form-control.is-valid:focus{box-shadow:none !important}/*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
